@@ -63,7 +63,7 @@ class AppFrame extends JFrame {
 		setResizable(false);
 		setSize(WIDTH, HEIGHT);
 		// positioning the frame in the center of the screen
-		setLocationRelativeTo (null);  
+		setLocationRelativeTo (null);
 
 		// setting frame behavior
 		addWindowListener (new WindowAdapter ( )
@@ -72,13 +72,13 @@ class AppFrame extends JFrame {
 
 				JOptionPane.showMessageDialog(null, "Thanks for using our Calculator application. See you again!", "Exit", JOptionPane.INFORMATION_MESSAGE);
 				System.exit(0);
-			}            
+			}
 		}
 				);
 
 
 		add(resultField, BorderLayout.NORTH);
-		
+
 
 	}
 
